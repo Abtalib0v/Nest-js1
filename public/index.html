@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/node_modules/remixicon/fonts/remixicon.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <div class="logo_image">
+                    <img src="/src/assets/logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="center">
+
+
+            <div class="search">
+                <form>
+                    <!-- <label for="username"></label> -->
+                    <select id="username" aria-label="Select input">
+                        <option value="All Categories">All Categories</option>
+                        <option value="Milks and Dairies">Milks and Dairies</option>
+                        <option value="Wines & Alcohol">Wines & Alcohol</option>
+                        <option value="Clothing & Beauty">Clothing & Beauty</option>
+                        <option value="Pet Foods & Toy">Pet Foods & Toy</option>
+                        <option value="Fast food">Fast food</option>
+                        <option value="Baking material">Baking material</option>
+                        <option value="Vegetables">Vegetables</option>
+                        <option value="Fresh Seafood">Fresh Seafood</option>
+                        <option value="Noodles & Rice">Noodles & Rice</option>
+                        <option value="Ice cream">Ice cream</option>
+                    </select>
+                    <input id="username" type="search" class="input" aria-label="Search input">
+                </form>
+
+            </div>
+        </div>
+        <div class="right">
+
+            <div class="icons">
+                <div class="icon">
+                    <img src="/src/assets/icon-compare.svg" alt="">
+                    <h1>Compare</h1>
+                </div>
+                <div class="icon">
+                    <img src="/src/assets/icon-heart.svg" alt="">
+                    <h1>Wishlist</h1>
+                </div>
+                <div class="icon">
+                    <img src="/src/assets/icon-cart.svg" alt="">
+                    <h1>Card</h1>
+                </div>
+                <div class="icon">
+                    <img src="/src/assets/icon-user.svg" alt="">
+                    <h1>Account</h1>
+                </div>
+            </div>
+
+        </div>
+
+
+    </nav>
+    <main>
+        <section id="products">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-10">
+                        <div class="row" id="pro-cards">
+                            
+                            <!-- <div class="col-lg-12">
+                                
+                            </div> -->
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/src/js/products.js"></script>
+
+
+</body>
+
+</html>
