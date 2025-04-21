@@ -1,0 +1,51 @@
+#archive_header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    .header_page {
+        .header_text {
+            background-image: url(/src/assets/header-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            object-fit: cover;
+            border-radius: 20px;
+            padding: 70px 80px;
+
+            .left_text {
+                h1 {
+                    margin-bottom: 15px;
+                    font-size: 48px;
+                    font-family: Quicksand, sans-serif;
+                    color: rgb(37, 61, 78);
+                    font-weight: 700;
+                    line-height: 1.2;
+                }
+
+                .location {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 8px;
+
+                    .loc_left {
+                        a {
+                            cursor: pointer;
+                            text-decoration: none;
+                            color: rgb(59, 183, 126);
+                            font-size: 14px !important;
+                            font-family: "lato";
+                            font-weight: 700;
+
+                            i {
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+
+                    i {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

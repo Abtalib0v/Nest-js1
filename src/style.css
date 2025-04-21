@@ -115,6 +115,69 @@ nav .right .icons .icon img {
   width: 25px;
 }
 
+header {
+  border-top: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding: 15px 0;
+}
+header .header_box .head_left .categories {
+  margin-right: 35px;
+}
+header .header_box .head_left .categories button {
+  line-height: 44px;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0px 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(59, 183, 126);
+  font-weight: 700;
+  align-items: center;
+  border: 0px;
+}
+
+#archive_header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#archive_header .header_page .header_text {
+  background-image: url(/src/assets/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  padding: 70px 80px;
+}
+#archive_header .header_page .header_text .left_text h1 {
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-family: Quicksand, sans-serif;
+  color: rgb(37, 61, 78);
+  font-weight: 700;
+  line-height: 1.2;
+}
+#archive_header .header_page .header_text .left_text .location {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+#archive_header .header_page .header_text .left_text .location .loc_left a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(59, 183, 126);
+  font-size: 14px !important;
+  font-family: "lato";
+  font-weight: 700;
+}
+#archive_header .header_page .header_text .left_text .location .loc_left a i {
+  font-size: 14px !important;
+}
+#archive_header .header_page .header_text .left_text .location i {
+  font-size: 10px;
+}
+
 #products .cards {
   display: flex;
   padding: 0 20px 20px 0px;

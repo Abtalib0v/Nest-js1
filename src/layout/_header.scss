@@ -1,0 +1,24 @@
+header {
+    border-top: 1px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    padding: 15px 0;
+    .header_box {
+        .head_left {
+            .categories {
+                margin-right: 35px;
+                button {
+                    line-height: 44px;
+                    font-family: Quicksand, sans-serif;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    padding: 0px 20px;
+                    color: rgb(255, 255, 255);
+                    background: rgb(59, 183, 126);
+                    font-weight: 700;
+                    align-items: center;
+                    border: 0px;
+                }
+            }
+        }
+    }
+}
