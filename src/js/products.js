@@ -60,3 +60,4 @@ getApiData("product").then((data) => {
     return (productBoxes.innerHTML += renderCards(cards));
   });
 });
+const rendercards = (data)
